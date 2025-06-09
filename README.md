@@ -25,3 +25,8 @@ esto es una parte del codigo
 ![imagen](https://github.com/user-attachments/assets/23aa21d2-bf54-4c7f-bbcc-e1f57c8dea49)
 
 ![imagen](https://github.com/user-attachments/assets/1b87181f-9681-46c3-a4c1-1fdbb0b1e305)
+Esta pagina web es sobre mi portafolio personal, que va a seguir recibiendo actualizaciones
+Nombre: Juan Diego Figueroa Ramos
+ID: 1142915728
+Clan: Gosling
+Email: Diegofigueroa0520@gmail.com
