@@ -1,0 +1,199 @@
+/* background style */
+body {
+  background-image: url(./img/riwi.jpeg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+  
+  margin: 0;
+  animation: changebackground 10s infinite ease-in-out;
+}
+
+body>* {
+  margin: 1rem 4rem;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+
+}
+
+ /*page title style  */
+.letter {
+  font-family: "Savate", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 100px;
+  color: #ffee00;
+  text-shadow:
+    1px 1px 0 #ffffff,
+    -1px 1px 0 #ffffff,
+    -1px -1px 0 #ffffff,
+    1px -1px 0 #ffffff;
+  margin: 0;
+  border-bottom: 1px solid rgb(255, 0, 0);
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+  margin: 0;
+
+}
+
+/* logo style */
+.style_logo {
+  font-size: 55px;
+}
+
+.letter2 {
+  font-family: "Savate", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100px;
+  font-style: normal;
+  font-size: 34px;
+  color: #110d0d;
+  word-spacing: 10px;
+
+}
+
+/* style subtitle */
+body>h1 {
+  font-family: "Savate", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 650;
+  font-style: normal;
+  font-size: 64px;
+  color: #000000;
+}
+
+/* style paragrahp */
+section>p {
+  font-family: "Savate", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 45px;
+  font-style: normal;
+  font-size: 40px;
+  color: #ff0000;
+  line-height: 1.8;
+  text-shadow:
+    1px 1px 0 #ffffff,
+    -1px 1px 0 #ffffff,
+    -1px -1px 0 #ffffff,
+    1px -1px 0 #ffffff;
+  margin: 0;
+}
+
+/* style of logos stars */
+.stars {
+  margin-left: 95px;
+  color: #FFEA2B;
+  font-size: 30px;
+  word-spacing: 10px;
+
+}
+
+.star {
+  color: white;
+}
+
+body>span>h2 {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 24px;
+  color: #FFFFFF;
+  margin-left: 95px;
+  margin-top: 45px;
+  letter-spacing: 2.5px;
+}
+
+/* animations */
+@keyframes changebackground {
+  15% {
+    background-image: url(./img/riwi.jpeg);
+    opacity: 0.7;
+  }
+
+  30% {
+    background-image: url(./img/riwi2.png);
+    opacity: 1;
+
+  }
+
+  65% {
+    opacity: 0.7;
+  }
+
+}
+
+.style_image {
+  width: 50px;
+  height: 50px;
+  border-radius: 30px;
+}
+
+/* style nav */
+nav a {
+  text-decoration: none;
+  font-family: "Savate", sans-serif;
+  font-size: 24px;
+  color: #f8cad0;
+  margin: 10px 20px;
+  background-color: black;
+  border: 2px solid;
+  border-radius: 10px;
+}
+
+nav {
+  display: flex;
+  justify-content: end;
+}
+
+
+.grid {
+  display: grid;
+  justify-items: stretch;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.itemsgrid2 {
+  grid-column: 4/2;
+  grid-row: 1/4;
+}
+
+.itemsgrid1 {
+  grid-column: 1/2;
+  grid-row: 1/4;
+  width: 460px;
+  height: 360px;
+  background-image: url(./img/Group\ 28.svg);
+  background-size: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+/* style form */
+.label {
+  font-family: "Savate", sans-serif;
+  font-size: 40px;
+  color: #2131bd;
+  border: 2px solid;
+  border-radius: 20px;
+  padding: 0;
+}
+
+/* height background */
+html {
+  height: 100%;
+}
+
+.central_image {
+  width: 600px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+}
